@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sparks | Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body
+		{
+			background-image: url('glassback.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 100vh;
+		}
+		h1
+    {
+      font-family: "Playfair Display", serif;
+      color: black;
+      letter-spacing: 2px;
+    }
+
+    .btn-outline-primary
+    {
+	    font-weight: bold;
+	    font-size: 18px;
+    }
+    p, li, a, .med_button
+    {
+      font-family: "PT Sans", sans-serif;
+      font-size: 20px;
+      color: black;
+      text-decoration: none;
+    }
+	</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Online Banking</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="transactions.php">Transactions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row">
+	  <div class="col-sm-3"></div>
+	  <div class="col-sm-6">
+		  <div class="heading" style="margin-top: 150px;">
+        <p class="hero_subtitle">Make Transactions Easy</p>
+        <h1>Welcome To Sparks Online Banking</h1>
+        <br>
+        <br>
+        <input type="button" name="" onclick="document.location.href='customers.php';" value="Get Started-->" class="btn btn-outline-primary">
+      </div>
+	  </div>
+  </div>
+</body>
+</html>
